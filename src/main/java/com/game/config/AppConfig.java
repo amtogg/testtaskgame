@@ -37,6 +37,7 @@ public class AppConfig {
         em.setJpaVendorAdapter(vendorAdapter);
         em.setJpaProperties(additionalProperties());
 
+
         return em;
     }
 
